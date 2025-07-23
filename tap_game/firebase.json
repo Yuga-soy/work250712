@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tap-game-test0709",
+          "appId": "1:823285427125:android:8518d670b911e9af5a87fc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tap-game-test0709",
+          "configurations": {
+            "android": "1:823285427125:android:8518d670b911e9af5a87fc",
+            "ios": "1:823285427125:ios:1ea3346148e980345a87fc",
+            "macos": "1:823285427125:ios:1ea3346148e980345a87fc",
+            "web": "1:823285427125:web:e5dc86ab628daabd5a87fc",
+            "windows": "1:823285427125:web:6ef110c2935af69c5a87fc"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "northamerica-northeast1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823285427125",
+    "project_id": "tap-game-test0709",
+    "storage_bucket": "tap-game-test0709.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823285427125:android:8518d670b911e9af5a87fc",
+        "android_client_info": {
+          "package_name": "com.example.tap_game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClP93nLE7hWaZRlRgTL3m6oZ0lzazNl3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
